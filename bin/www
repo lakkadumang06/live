@@ -18,7 +18,7 @@ app.set('port', port);
 const mongoose = require('mongoose');
 
 mongoose.connect('mongodb+srv://lakkadumang306:umang306@cluster0.dc1ism1.mongodb.net/live')
-  .then(() => console.log('Connected!'));
+  .then(() => console.log('MongDB Connected!!!'));
 
 /**
  * Create HTTP server.
